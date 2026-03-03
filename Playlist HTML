@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MY PLAYLIST</title>
+    </head>
+<style>
+    .card {
+        display: inline-block;
+        text-align: center;
+        margin: 10px;
+        color: white;
+    }
+
+    body {
+        background-image: url('https://images.unsplash.com/photo-1507838153414-b4b713384a76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    marquee {
+        color: black;
+        font-size: 50px;
+    }
+
+</style>
+
+<body>
+    
+    <marquee behavior="scroll" direction="left">
+        MY MUSIC VIDEO
+    </marquee>
+    <div class="card">
+        <a href="Mahika.mp4">
+            <img src="https://upload.wikimedia.org/wikipedia/en/2/2c/Mahika_%28song%29.png" alt="Image 1" width="300" height="200" controls autoplay loop>
+        </a>
+        <h1>MAHIKA</h1>
+    </div>
+    <div class="card">
+        <a href="Man I Need - Olivia Dean (Lyrics) Taylor Swift, Lady Gaga, Bruno Mars, Justin Bieber.mp4">
+            <img src="https://f4.bcbits.com/img/a1680059166_10.jpg" alt="Image 1" width="300" height="200" controls autoplay loop>
+        </a>
+        <h1>MAN I NEED</h1>
+    </div>
+    <div class="card">
+        <a href="Leona Lewis - Bleeding Love (Lyrics).mp4">
+            <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Leona_Lewis_-_Bleeding_Love.jpg" alt="Image 1" width="300" height="200" controls autoplay loop>
+        </a>
+        <h1>BLEEDING LOVE</h1>
+    </div>
+    <div class="card">
+        <a href="Brown Eyes - Destiny's Child (Lyrics).mp4">
+            <img src="https://cdn-images.dzcdn.net/images/cover/d6feeef90cb9fecd37b9497f14b8f5b3/1900x1900-000000-81-0-0.jpg" alt="Image 1" width="300" height="200" controls autoplay loop>
+        </a>
+        <h1>BROWN EYES</h1>
+    </div>
+    <div class="card">
+        <a href="Usher - My Boo (Lyrics) ft. Alicia Keys.mp4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBGmGCmvkjPktr5NGNW52-wI6sea0kH7taKw&s" alt="Image 1" width="300" height="200" controls autoplay loop>
+        </a>
+        <h1>MY BOO</h1>
+    </div>
+    <div class="card">
+        <a href="Keyshia Cole - Love (Lyrics) _ Dixon Dallas, Dax, Zack Tabudlo (MIX).mp4">
+            <img src="https://i.scdn.co/image/ab67616d0000b2732cc2323c681b3f84cdc8379a" alt="Image 1" width="300" height="200" controls autoplay loop>
+        </a>
+        <h1>LOVE</h1>
+    </div>
+    <div class="card">
+        <a href="Daniel Caesar & H.E.R - Best Part (Lyrics).mp4">
+            <img src="https://i.scdn.co/image/ab67616d0000b2733138f891f3075c9c5d944037" alt="Image 1" width="300" height="200" controls autoplay loop>
+        </a>
+        <h1>BEST PART</h1>
+    </div>
+    <div class="card">
+        <a href="Daniel Caesar - Get You (Lyrics) ft. Kali Uchis.mp4">
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/52/Daniel_Caesar_Get_You.jpg" alt="Image 1" width="300" height="200" controls autoplay loop>
+        </a>
+        <h1>GET YOU</h1>
+    </div>
+    <div class="card">
+        <a href="Daniel Caesar - Hold Me Down (Lyrics) (1).mp4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRnNgllKcgn9ldvvzwEcsvYcuN_Buubkh6EA&s" alt="Image 1" width="300" height="200" controls autoplay loop>
+        </a>
+        <h1>HOLD ME DOWN</h1>
+    </div>
+    <div class="card">
+        <a href="SIENNA SPIRO - Die On This Hill (Lyrics).mp4">
+            <img src="https://i.scdn.co/image/ab67616d00001e0238a867ad8804998d32a9dacb" alt="Image 1" width="300" height="200" controls autoplay loop>
+        </a>
+        <h1>DIE ON THIS HILL</h1>
+    </div>
+    </body>
+</html>
